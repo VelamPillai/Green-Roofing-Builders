@@ -10,7 +10,7 @@ export default function Address() {
             <br></br>
             <div className="flex flex-row justify-center items-center">
                 <input type='email' className="w-3/4 h-6 bg-gray-100 focus:bg-white"  />
-                <button className="border border-black p-1 m-1 text-[16px] w-1/4 h-6 flex justify-center items-center hover:bg-white hover:text-gray-600">Sign Up</button>
+                <button className="border border-black p-1 m-1 text-[14px] md:text-[20px] w-1/4 h-6 flex justify-center items-center hover:bg-white hover:text-gray-600">Sign Up</button>
             </div>
             
             </div>
