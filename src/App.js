@@ -48,12 +48,14 @@ function App() {
 } */
 
 import Navbar from "./Components1/Navbar";
+import Home from "./Components1/Home";
 
 
 function App() {
   return (
-    <div>
+    <div >
       <Navbar />
+      <Home />
     </div>
   )
 }

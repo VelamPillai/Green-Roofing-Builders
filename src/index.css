@@ -2,22 +2,31 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer utilities {
+  body {
+    box-sizing: border-box;
+  }
+  .navHover:hover {
+    border: 2px solid green;
 
-@layer utilities{
-
-    body{
-       
-        box-sizing :border-box;
-    }
-    /* .navHover:hover{
-       
-            border : 2px solid green;
-            
-                      
-             box-sizing :border-box;
-    
-} */
-li{
+    box-sizing: border-box;
+  }
+  li {
     @apply px-4;
+  }
 }
+
+.fade-anim img{
+    animation: fadeAnim 0.5s ease-out;
+
+}
+
+@keyframes fadeAnim{
+    from{
+        opacity:0;
+    }
+    to{
+        opacity:1;
+    }
+
 }
