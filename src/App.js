@@ -10,10 +10,15 @@ import Contact from './Components/Contact';
 import Gallery from './Components/Gallery';
 import Testimonials from './Components/Testimonials';
 
+import { MobileMenuContextProvider } from './Contexts/MobileMenuContext';
+
 function App() {
   return (
     <div >
+      <MobileMenuContextProvider >
       <Header />
+      
+      
       <Routes>
         <Route exact path='/'>
           <Route index element={<Home />}/>
@@ -27,7 +32,7 @@ function App() {
         </Route>
         
       </Routes>
-     
+      </MobileMenuContextProvider>
     </div>
   );
 }

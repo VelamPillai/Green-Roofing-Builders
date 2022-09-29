@@ -4,13 +4,15 @@
 
 
 @layer utilities{
-    
+
+    body{
+        background: #39df39be;
+    }
     .navHover:hover{
        
             border : 2px solid green;
              padding:10px; 
-            box-sizing :border-box;
-           
+            box-sizing :border-box;          
         
     
 }
