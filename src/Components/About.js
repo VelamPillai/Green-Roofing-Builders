@@ -1,14 +1,14 @@
 
-import { useContext } from "react";
-
-import MobileMenuContext from "../Contexts/MobileMenuContext";
 
 export default function About() {
-    const [menuBtn ] = useContext(MobileMenuContext);
+   
     
     return (
         
-            menuBtn?<div className = 'w-full h-[80vh] fixed top-[680px]  sm:static  sm:top-0 text-black transition-all  ease-in duration-500'><h1  > About</h1></div > : <div className='w-full h-[80vh] text-black '><h1 >About</h1></div>
+        <div className="top-[120px]"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error officia aliquid ducimus rerum in minima aperiam tenetur velit eos repudiandae at doloribus, cumque quas inventore molestiae magni, maiores provident vero? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat quam voluptates, ipsa accusamus velit atque, doloribus dolorum sint tempora, tenetur ratione amet commodi eius dignissimos id nam. Rem, nesciunt aspernatur.
+             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error officia aliquid ducimus rerum in minima aperiam tenetur velit eos repudiandae at doloribus, cumque quas inventore molestiae magni, maiores provident vero? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat quam voluptates, ipsa accusamus velit atque, doloribus dolorum sint tempora, tenetur ratione amet commodi eius dignissimos id nam. Rem, nesciunt aspernatur.
+            
+            </div>
        
        
     )

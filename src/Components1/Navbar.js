@@ -1,43 +1,104 @@
-import React, { useState } from 'react';
+import { NavLink, Outlet } from "react-router-dom";
+import React, { useState } from "react";
 
 import { FaAngleDoubleDown, FaAngleDoubleUp } from "react-icons/fa";
 
-import SiteTitle from '../Components1/SiteTitle';
+import SiteTitle from "../Components1/SiteTitle";
 
 const Navbar = () => {
-    const [nav, setNav] = useState(false);
+  const [nav, setNav] = useState(false);
+  const [state, setState] = useState(false);
 
-    const handleClick = () => setNav(!nav);
+  const handleClick = () => setState(!state);
 
-    return (
-        <div className='fixed w-full md:h-[120px] flex justify-between items-center px-10 shadow bg-white z-10' >
-            <div className='h-[100%]'>
-                <SiteTitle />
-            </div>
-            {/* menu */}
-            
-            <ul className='hidden md:flex'>
-            
-                <li className='navHover'>About</li>
-                <li className='navHover'>Gallery</li>
-                <li className='navHover'>Testimonial</li>
-                <li className='navHover'>Contact</li>
-            </ul>
-            {/* hamburger */}
-            <div className='md:hidden text-3xl text-green-800 border-green-800 border-solid border-4 z-10' onClick={handleClick}>
-               {nav?<FaAngleDoubleUp/>:<FaAngleDoubleDown/>} 
-            </div>
-            {/* mobile menu */}
-            <ul className={!nav?'hidden ':'absolute top-0 right-0 w-full h-[100vh]  bg-green-300 flex flex-col justify-center items-center' }>
-                <li className='py-6 text-3xl navHover'>About</li>
-                <li className='py-6 text-3xl navHover'>Gallery</li>
-                <li className='py-6 text-3xl navHover'>Testimonial</li>
-                <li className='py-6 text-3xl navHover'>Contact</li>
-            </ul>
+  const handleNavClick = () => setNav(!nav);
 
-        </div>
-    )
-    
-}
+  return (
+    <div className="fixed w-full md:h-[120px] flex justify-between items-center px-10 shadow bg-white z-10">
+      <div className="h-[100%]">
+        <NavLink to="/">
+          <SiteTitle />
+        </NavLink>
+      </div>
+      {/* menu */}
+
+      <ul className="hidden md:flex">
+        <li>
+          <NavLink to="/about" className=" navHover my-3 border-box p-1">
+            About
+          </NavLink>
+        </li>
+        <li>
+          <NavLink to="/gallery" className=" navHover my-2 border-box p-1">
+            Gallery
+          </NavLink>
+        </li>
+        <li>
+          <NavLink to="/testimonials" className=" navHover my-2 border-box p-1">
+            Testimonials
+          </NavLink>
+        </li>
+        <li>
+          <NavLink to="/contact" className=" navHover my-2 border-box p-1">
+            contact
+          </NavLink>
+        </li>
+      </ul>
+      {/* hamburger */}
+      <div
+        className="md:hidden text-3xl text-green-800 border-green-800 border-solid border-4 z-10"
+        onClick={handleNavClick}
+      >
+        {nav ? <FaAngleDoubleUp /> : <FaAngleDoubleDown />}
+      </div>
+      {/* mobile menu */}
+      <ul
+        className={
+          !nav
+            ? "hidden "
+            : "absolute top-0 right-0 w-full h-[100vh]  bg-green-300 flex flex-col justify-center items-center md:hidden"
+        }
+      >
+        <li className="py-6 text-3xl">
+          <NavLink
+            to="/about"
+            className=" navHover my-3 border-box p-1"
+            onClick={handleNavClick}
+          >
+            About
+          </NavLink>
+        </li>
+        <li className="py-6 text-3xl">
+          <NavLink
+            to="/gallery"
+            className=" navHover my-2 border-box p-1"
+            onClick={handleNavClick}
+          >
+            Gallery
+          </NavLink>
+        </li>
+        <li className="py-6 text-3xl">
+          <NavLink
+            to="/testimonials"
+            className=" navHover my-2 border-box p-1"
+            onClick={handleNavClick}
+          >
+            Testimonials
+          </NavLink>
+        </li>
+        <li className="py-6 text-3xl">
+          <NavLink
+            to="/contact"
+            className=" navHover my-2 border-box p-1"
+            onClick={handleNavClick}
+          >
+            Contact
+          </NavLink>
+        </li>
+      </ul>
+      <Outlet />
+    </div>
+  );
+};
 
 export default Navbar;

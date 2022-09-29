@@ -11,10 +11,10 @@ const homeImage = [
     
 ]
 
-let count = 0;
+let count = 0; 
 export default function Slider() {
     const [currentIndex, setCurrentIndex] = useState(0);
-    /* const count = useRef(0); */
+    /*  const count = useRef(0);  */
     const slideRef = useRef();
     const slideInterval = useRef();
     function handleOnNextClick() {
