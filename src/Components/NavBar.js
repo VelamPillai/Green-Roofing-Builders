@@ -11,8 +11,8 @@ export default function NavBar() {
     setMenuBtn((menuBtn) => !menuBtn);
   }
   return (
-    <div className="sm:w-2/4 ">
-      <button onClick={handleClick} className="sm:hidden">
+    <div >
+      <button onClick={handleClick} className="md:hidden">
         <FaAngleDoubleDown
           style={menuBtn ? { display: "none" } : { display: "block" }}
           className="block text-3xl text-green-600 border-green-600 border-solid border-4"
@@ -29,7 +29,7 @@ export default function NavBar() {
             ? { opacity: 100, top: "380px" }
             : { opacity: 0, top: "-350px" }
         }
-        className="  flex justify-center items-center flex-col  sm:hidden z-[-1]  w-full absolute left-0 transition-all  ease-in-out duration-500 bg-white  text-black "
+        className="  flex justify-center items-center flex-col  md:hidden z-[-1]  w-full absolute left-0 transition-all  ease-in-out duration-500 bg-white  text-black "
       >
         <NavLink
           to="/about"
@@ -61,7 +61,7 @@ export default function NavBar() {
         </NavLink>
       </div>
 
-      <div className=" hidden sm:flex sm:justify-center sm:items-end sm:flex-row  sm:text-sm md:text-base  text-black md:justify-end md:items-center">
+      <div className=" hidden md:flex md:justify-center md:items-end md:flex-row  md:text-sm lg:text-base  text-black lg:justify-end lg:items-center">
         <NavLink to="/about" className="navHover mr-1 p-1 border-box">
           About
         </NavLink>
