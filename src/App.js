@@ -13,6 +13,7 @@ import Footer from "./Components1/footer/Footer.js";
 
 function App() {
   return (
+    
     <div className="flex flex-col h-screen">
       <Navbar />
       <main className="flex-1  w-full min-h-screen ">
@@ -26,9 +27,9 @@ function App() {
           <Route path="*" element={<Home />} />
         </Route>
       </Routes>
-      
+      <Footer />
       </main>
-       <Footer className=""/>
+      
      
     </div>
   );

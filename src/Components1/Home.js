@@ -3,7 +3,7 @@ import Slider from "./Slider";
 function Home() {
 
     return (
-        <div name='home' className="w-full min-h-screen ">
+        <div name='home' className="w-full  ">
             
             
              <Slider/> 
