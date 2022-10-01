@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Green-Roofing-Builders/static/css/main.c1eb48cf.css",
+    "main.js": "/Green-Roofing-Builders/static/js/main.198a739f.js",
+    "static/media/home7.jpg": "/Green-Roofing-Builders/static/media/home7.3e06bc31e4ea02364974.jpg",
+    "static/media/home6.jpg": "/Green-Roofing-Builders/static/media/home6.a4c3b4700aa9442d334e.jpg",
+    "static/media/footericon.png": "/Green-Roofing-Builders/static/media/footericon.0874157f4bc296a93755.png",
+    "index.html": "/Green-Roofing-Builders/index.html",
+    "main.c1eb48cf.css.map": "/Green-Roofing-Builders/static/css/main.c1eb48cf.css.map",
+    "main.198a739f.js.map": "/Green-Roofing-Builders/static/js/main.198a739f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c1eb48cf.css",
+    "static/js/main.198a739f.js"
+  ]
+}
