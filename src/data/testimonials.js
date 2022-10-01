@@ -36,6 +36,7 @@ const testimonials = [
 ]
 
 
-const getTestimonials = (testimonials) => testimonials;
+const getTestimonials = () => testimonials;
 
+getTestimonials();
 export { getTestimonials };

@@ -1,4 +1,4 @@
-import aboutBgImage from '../images/home7.jpg';
+
 
 export default function About() {
   return (
