@@ -3,13 +3,10 @@ import React, { useState } from "react";
 
 import { FaAngleDoubleDown, FaAngleDoubleUp } from "react-icons/fa";
 
-import SiteTitle from "../Components1/SiteTitle";
+import SiteTitle from "../Components/SiteTitle";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
-  const [state, setState] = useState(false);
-
-  const handleClick = () => setState(!state);
 
   const handleNavClick = () => setNav(!nav);
 
