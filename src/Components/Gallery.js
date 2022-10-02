@@ -1,8 +1,8 @@
 import Card from "./Gallery/Card";
-import { Route ,Routes } from "react-router-dom";
+
 
 import { NavLink } from "react-router-dom";
-import Project from "./Gallery/Project";
+
 
 import { getGallery } from "../data/gallery";
 

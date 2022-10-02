@@ -5,7 +5,7 @@ export default function Address() {
     
     return (
         
-        <div className="p-5 text-4xl flex flex-row sm:flex-row ">
+        <div className="p-5 text-4xl md:text-6xl flex flex-row sm:flex-row ">
            
             < h1 className=" hover:text-white m-2"> <AiFillFacebook />   </h1 >
             < h1 className="   hover:text-white m-2"> <AiFillInstagram />   </h1 >

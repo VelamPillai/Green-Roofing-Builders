@@ -12,33 +12,33 @@ export default function Card({item}) {
             className="m-4 hover:opacity-60 hover:bg-black hover:text-white"
               >
                   
-            <img src={item.image} className="w-[500px] h-[300px] " />
-            <div className="p-4 shadow-lg ">
-              <p>
+            <img src={item.image} className="w-[500px] h-[300px] md:w-[800px] md:h-[600px] " />
+            <div className="p-4 md:p-8 shadow-lg ">
+              <p className="md:text-2xl">
                 
                 <span className="text-gray-500  font-bold ">
-                  SquareFeet :
+                  SquareFeet : {'   '}
                 </span>
                 {item.SquareFeet}
               </p>
-              <p>
+              <p className="md:text-2xl">
                
                 <span className="text-gray-500  font-bold ">
-                  Bedrooms :
+                  Bedrooms : {'   '}
                 </span>
                 {item.Bathrooms}
               </p>
-              <p>
+              <p className="md:text-2xl">
                 
                 <span className="text-gray-500  font-bold ">
-                  Bathrooms :
+                  Bathrooms : {'   '}
                 </span>
                 {item.Bathrooms}
               </p>
-              <p>
+              <p className="md:text-2xl">
                
                 <span className="text-gray-500  font-bold ">
-                  Category :
+                  Category : {'   '}
                 </span>
                 {item.category}
               </p>

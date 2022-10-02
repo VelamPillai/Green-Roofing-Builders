@@ -18,7 +18,7 @@ function Footer() {
                  <NewsLetter />
                 <SocialMedia /> 
             </div>
-            <div className = 'text-center'>Copyright 2022 @ Green Roofing Builders .All rights reserved.</div>
+            <div className = 'text-center md:text-2xl'>Copyright 2022 @ Green Roofing Builders .All rights reserved.</div>
         </div>
     )
 }

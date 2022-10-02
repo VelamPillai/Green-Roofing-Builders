@@ -11,7 +11,7 @@ const Navbar = () => {
   const handleNavClick = () => setNav(!nav);
 
   return (
-    <div className="sticky top-0 w-full md:h-[180px] flex justify-between items-center px-10 shadow bg-white text-black md:text-2xl z-10">
+    <div className="sticky top-0 w-full h-[180px]  md:h-[300px] flex justify-between items-center px-10 md:px-16 shadow bg-white text-black md:text-3xl z-10">
       <div className="h-[100%]">
         <NavLink to="/">
           <SiteTitle />
