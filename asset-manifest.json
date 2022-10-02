@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Green-Roofing-Builders/static/css/main.01445505.css",
-    "main.js": "/Green-Roofing-Builders/static/js/main.77fc2cea.js",
+    "main.js": "/Green-Roofing-Builders/static/js/main.a948346c.js",
     "static/media/gallery3.jpg": "/Green-Roofing-Builders/static/media/gallery3.aee36c65e7ce4d2a90ca.jpg",
     "static/media/gallery7.jpg": "/Green-Roofing-Builders/static/media/gallery7.8c1d3d228d6677fabf02.jpg",
     "static/media/gallery2.jpg": "/Green-Roofing-Builders/static/media/gallery2.a70a81871eda6584ec2e.jpg",
@@ -19,10 +19,10 @@
     "static/media/footericon.png": "/Green-Roofing-Builders/static/media/footericon.0874157f4bc296a93755.png",
     "index.html": "/Green-Roofing-Builders/index.html",
     "main.01445505.css.map": "/Green-Roofing-Builders/static/css/main.01445505.css.map",
-    "main.77fc2cea.js.map": "/Green-Roofing-Builders/static/js/main.77fc2cea.js.map"
+    "main.a948346c.js.map": "/Green-Roofing-Builders/static/js/main.a948346c.js.map"
   },
   "entrypoints": [
     "static/css/main.01445505.css",
-    "static/js/main.77fc2cea.js"
+    "static/js/main.a948346c.js"
   ]
 }
