@@ -1,6 +1,6 @@
 
 
-import { getGallery } from "../../data/gallery";
+/* import { getGallery } from "../../data/gallery"; */
 
 export default function Card({item}) {
  

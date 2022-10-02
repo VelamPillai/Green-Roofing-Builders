@@ -1,12 +1,15 @@
 
 import Slider from "./Slider";
-function Home() {
 
+
+
+function Home() {
+   
     return (
-        <div name='home' className="w-full  ">
+        <div name='home' className="w-full h-screen ">
             
-            
-             <Slider/> 
+           
+            <Slider/> 
             
         </div>
     )
