@@ -13,7 +13,7 @@ export default function Gallery() {
    
     
     return (
-        <div>
+        <div className="min-h-screen">
         <div className="flex flex-col md:flex-row md:flex-wrap justify-center items-center">
             {gallery.map((item, idx) => {
                 return (
