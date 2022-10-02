@@ -1,19 +1,28 @@
 {
   "files": {
-    "main.css": "/Green-Roofing-Builders/static/css/main.c1eb48cf.css",
-    "main.js": "/Green-Roofing-Builders/static/js/main.0c413d44.js",
+    "main.css": "/Green-Roofing-Builders/static/css/main.ab0253ee.css",
+    "main.js": "/Green-Roofing-Builders/static/js/main.f32f9756.js",
+    "static/media/gallery3.jpg": "/Green-Roofing-Builders/static/media/gallery3.aee36c65e7ce4d2a90ca.jpg",
+    "static/media/gallery7.jpg": "/Green-Roofing-Builders/static/media/gallery7.8c1d3d228d6677fabf02.jpg",
+    "static/media/gallery2.jpg": "/Green-Roofing-Builders/static/media/gallery2.a70a81871eda6584ec2e.jpg",
+    "static/media/gallery9.jpg": "/Green-Roofing-Builders/static/media/gallery9.4fe71fce70a1c9555ed8.jpg",
+    "static/media/gallery8.jpg": "/Green-Roofing-Builders/static/media/gallery8.ce15a06feca056205f27.jpg",
+    "static/media/gallery6.jpg": "/Green-Roofing-Builders/static/media/gallery6.12d2cc29645f4c4684f8.jpg",
     "static/media/home1.jpg": "/Green-Roofing-Builders/static/media/home1.9901071cd6968b2b42dd.jpg",
+    "static/media/gallery1.jpg": "/Green-Roofing-Builders/static/media/gallery1.335f239b2487d8bb1a1c.jpg",
     "static/media/home3.jpg": "/Green-Roofing-Builders/static/media/home3.81181dba394506a94d90.jpg",
+    "static/media/gallery5.jpg": "/Green-Roofing-Builders/static/media/gallery5.4e077642671725ece67e.jpg",
     "static/media/home2.jpg": "/Green-Roofing-Builders/static/media/home2.da50dc40819596ebb6e0.jpg",
+    "static/media/gallery4.jpg": "/Green-Roofing-Builders/static/media/gallery4.32a45bea3b3ecfc397d6.jpg",
     "static/media/home7.jpg": "/Green-Roofing-Builders/static/media/home7.3e06bc31e4ea02364974.jpg",
     "static/media/home6.jpg": "/Green-Roofing-Builders/static/media/home6.a4c3b4700aa9442d334e.jpg",
     "static/media/footericon.png": "/Green-Roofing-Builders/static/media/footericon.0874157f4bc296a93755.png",
     "index.html": "/Green-Roofing-Builders/index.html",
-    "main.c1eb48cf.css.map": "/Green-Roofing-Builders/static/css/main.c1eb48cf.css.map",
-    "main.0c413d44.js.map": "/Green-Roofing-Builders/static/js/main.0c413d44.js.map"
+    "main.ab0253ee.css.map": "/Green-Roofing-Builders/static/css/main.ab0253ee.css.map",
+    "main.f32f9756.js.map": "/Green-Roofing-Builders/static/js/main.f32f9756.js.map"
   },
   "entrypoints": [
-    "static/css/main.c1eb48cf.css",
-    "static/js/main.0c413d44.js"
+    "static/css/main.ab0253ee.css",
+    "static/js/main.f32f9756.js"
   ]
 }
