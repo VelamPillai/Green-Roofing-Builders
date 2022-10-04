@@ -23,7 +23,7 @@ let count = 0;
 export default function Slider() {
 
    /*  const homeImage = getGallery(); */
-    console.log(homeImage);
+    /* console.log(homeImage); */
     
     const [currentIndex, setCurrentIndex] = useState(0);
     /*  const count = useRef(0);  */
@@ -58,7 +58,7 @@ export default function Slider() {
         }
     }, []);
     
-    console.log(homeImage[currentIndex])
+   /*  console.log(homeImage[currentIndex]) */
      
     return (
         <div ref={slideRef} className="w-full  select-none relative">
@@ -71,7 +71,7 @@ export default function Slider() {
             
             {/* left and right slider button */}
             <div className="absolute  w-full top-1/2 transform -translate-y-1/2 px-3 flex justify-between items-center text-white ">
-                <button onClick={handleOnNextClick} className='bg-opacity-50 hover:bg-opacity-100 '><BsFillArrowLeftCircleFill/></button>
+                <button onClick={handleOnNextClick} ><BsFillArrowLeftCircleFill/></button>
                 <button onClick={handleOnPreviousClick}><BsFillArrowRightCircleFill/></button>
             </div> 
 
