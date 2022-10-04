@@ -36,12 +36,10 @@ const newsletterReducer= (state, action) => {
 export default function Address() {
     const [state, dispatch] = useReducer(newsletterReducer,  initialState);
    
-    
     const handleClick = (e) => {
-        e.preventDefault();      
-        
+        e.preventDefault();       
         dispatch({ type: ACTION.GETEMAIL, payLoad: { email: '' } });
-        alert('Thank you for the Subscription!!!');
+        alert('Thank you for subscription!!!');
         
       }
     
