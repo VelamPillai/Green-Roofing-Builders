@@ -14,6 +14,13 @@ export default function Card({item}) {
                   
             <img src={item.image} className="w-[500px] h-[300px] md:w-[800px] md:h-[600px] " />
             <div className="p-4 md:p-8 shadow-lg ">
+            <p className="md:text-2xl">
+                
+                <span className="text-gray-500  font-bold ">
+                  Project id : {'   '}
+                </span>
+                {item.id}
+              </p>
               <p className="md:text-2xl">
                 
                 <span className="text-gray-500  font-bold ">

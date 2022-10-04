@@ -69,7 +69,7 @@ const galleryContent = [
         SquareFeet: 1200,
         Bedrooms: 2,
         Bathrooms:2,
-        category:'New project',
+        category:'finished',
         interior:`Smooth Drywall Throughout
         Flat Ceiling Throughout
         Stipple Ceiling
@@ -193,7 +193,7 @@ const galleryContent = [
         SquareFeet: 1800,
         Bedrooms: 5,
         Bathrooms:3,
-        category:'New project',
+        category:'finished',
         interior:`Smooth Drywall Throughout
         Flat Ceiling Throughout
         Stipple Ceiling
@@ -568,4 +568,7 @@ const getGallery = () => galleryContent;
 
 const getProject = (id) => galleryContent.find(item => item.id === Number(id) );
 
-export { getGallery ,getProject};
+const getNewProject = (option)=> galleryContent.filter(item => item.category==='New project' && item) ;
+const getFinishedProject = (option)=> galleryContent.filter(item => item.category==='finished' && item) ;
+
+export { getGallery ,getProject,getNewProject,getFinishedProject};
