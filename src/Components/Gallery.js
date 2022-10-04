@@ -10,9 +10,7 @@ import { getGallery,getNewProject ,getFinishedProject} from "../data/gallery";
 export default function Gallery() {
 
     let galleryArr=[];
-   /*  const gallery = getGallery();
-    const newProject = getNewProject();
-    const finishedProject = getFinishedProject(); */
+   
 
     const [project , setProject] =useState('All');
 
